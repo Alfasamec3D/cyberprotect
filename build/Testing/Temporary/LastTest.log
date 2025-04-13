@@ -1,18 +1,18 @@
-Start testing: Apr 13 05:33 MSK
+Start testing: Apr 13 06:08 MSK
 ----------------------------------------------------------
 1/1 Testing: Test_run
 1/1 Test: Test_run
 Command: "/mnt/9C468886468862BE/media/programs/cyberprotect/build/test_run"
 Directory: /mnt/9C468886468862BE/media/programs/cyberprotect/build
-"Test_run" start time: Apr 13 05:33 MSK
+"Test_run" start time: Apr 13 06:08 MSK
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Test_run" end time: Apr 13 05:33 MSK
+"Test_run" end time: Apr 13 06:08 MSK
 "Test_run" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Apr 13 05:33 MSK
+End testing: Apr 13 06:08 MSK
