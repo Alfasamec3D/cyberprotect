@@ -1,0 +1,5 @@
+/mnt/9C468886468862BE/media/programs/cyberprotect/build/CMakeFiles/ui.dir
+/mnt/9C468886468862BE/media/programs/cyberprotect/build/CMakeFiles/machine.dir
+/mnt/9C468886468862BE/media/programs/cyberprotect/build/CMakeFiles/test.dir
+/mnt/9C468886468862BE/media/programs/cyberprotect/build/CMakeFiles/edit_cache.dir
+/mnt/9C468886468862BE/media/programs/cyberprotect/build/CMakeFiles/rebuild_cache.dir

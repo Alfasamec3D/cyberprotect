@@ -1,0 +1,7 @@
+CMake_minimum_required(VERSION 3.13)
+project(figure_detect)
+enable_testing()
+add_executable(ui ui.cpp)
+add_library(machine src/machine.cpp)
+target_include_directories(machine PUBLIC "include")
+target_link_libraries(ui machine)
