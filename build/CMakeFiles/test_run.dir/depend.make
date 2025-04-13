@@ -1,2 +1,2 @@
-# Empty dependencies file for figure_detect.
+# Empty dependencies file for test_run.
 # This may be replaced when dependencies are built.

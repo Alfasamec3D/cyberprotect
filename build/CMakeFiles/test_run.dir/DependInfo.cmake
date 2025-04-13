@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/mnt/9C468886468862BE/media/programs/cyberprotect/figure_detect.cpp" "CMakeFiles/figure_detect.dir/figure_detect.cpp.o" "gcc" "CMakeFiles/figure_detect.dir/figure_detect.cpp.o.d"
+  "/mnt/9C468886468862BE/media/programs/cyberprotect/tests/test_run.cpp" "CMakeFiles/test_run.dir/tests/test_run.cpp.o" "gcc" "CMakeFiles/test_run.dir/tests/test_run.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

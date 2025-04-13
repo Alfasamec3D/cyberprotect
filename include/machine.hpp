@@ -1,3 +1,5 @@
+#ifndef MACHINE_HPP
+#define MACHINE_HPP
 #include <iostream>
 #include <set>
 #include <string>
@@ -31,7 +33,9 @@ class InferenceMachine {
   }
 
  private:
-  bool checkCondition(const std::unordered_map<std::string, bool>& condition) const;
+  bool checkCondition(
+      const std::unordered_map<std::string, bool>& condition) const;
 
   bool applyAction(const std::unordered_map<std::string, bool>& action);
 };
+#endif

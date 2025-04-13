@@ -65,6 +65,7 @@ CMAKE_BINARY_DIR = /mnt/9C468886468862BE/media/programs/cyberprotect/build
 # The main recursive "all" target.
 all: CMakeFiles/ui.dir/all
 all: CMakeFiles/machine.dir/all
+all: CMakeFiles/test_run.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -74,6 +75,7 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/ui.dir/clean
 clean: CMakeFiles/machine.dir/clean
+clean: CMakeFiles/test_run.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -83,7 +85,7 @@ clean: CMakeFiles/machine.dir/clean
 CMakeFiles/ui.dir/all: CMakeFiles/machine.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ui.dir/build.make CMakeFiles/ui.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ui.dir/build.make CMakeFiles/ui.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/mnt/9C468886468862BE/media/programs/cyberprotect/build/CMakeFiles --progress-num=3,4 "Built target ui"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/mnt/9C468886468862BE/media/programs/cyberprotect/build/CMakeFiles --progress-num=5,6 "Built target ui"
 .PHONY : CMakeFiles/ui.dir/all
 
 # Build rule for subdir invocation for target.
@@ -127,6 +129,32 @@ machine: CMakeFiles/machine.dir/rule
 CMakeFiles/machine.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/machine.dir/build.make CMakeFiles/machine.dir/clean
 .PHONY : CMakeFiles/machine.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/test_run.dir
+
+# All Build rule for target.
+CMakeFiles/test_run.dir/all: CMakeFiles/machine.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_run.dir/build.make CMakeFiles/test_run.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_run.dir/build.make CMakeFiles/test_run.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/mnt/9C468886468862BE/media/programs/cyberprotect/build/CMakeFiles --progress-num=3,4 "Built target test_run"
+.PHONY : CMakeFiles/test_run.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/test_run.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/9C468886468862BE/media/programs/cyberprotect/build/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test_run.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/9C468886468862BE/media/programs/cyberprotect/build/CMakeFiles 0
+.PHONY : CMakeFiles/test_run.dir/rule
+
+# Convenience name for target.
+test_run: CMakeFiles/test_run.dir/rule
+.PHONY : test_run
+
+# clean rule for target.
+CMakeFiles/test_run.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_run.dir/build.make CMakeFiles/test_run.dir/clean
+.PHONY : CMakeFiles/test_run.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

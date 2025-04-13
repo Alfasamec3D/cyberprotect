@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I/mnt/9C468886468862BE/media/programs/cyberprotect/include
 
 CXX_FLAGS = -O3 -DNDEBUG
 

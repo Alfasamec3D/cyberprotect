@@ -152,6 +152,19 @@ machine/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/machine.dir/build.make CMakeFiles/machine.dir/build
 .PHONY : machine/fast
 
+#=============================================================================
+# Target rules for targets named test_run
+
+# Build rule for target.
+test_run: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_run
+.PHONY : test_run
+
+# fast build rule for target.
+test_run/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_run.dir/build.make CMakeFiles/test_run.dir/build
+.PHONY : test_run/fast
+
 src/machine.o: src/machine.cpp.o
 .PHONY : src/machine.o
 
@@ -175,6 +188,30 @@ src/machine.s: src/machine.cpp.s
 src/machine.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/machine.dir/build.make CMakeFiles/machine.dir/src/machine.cpp.s
 .PHONY : src/machine.cpp.s
+
+tests/test_run.o: tests/test_run.cpp.o
+.PHONY : tests/test_run.o
+
+# target to build an object file
+tests/test_run.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_run.dir/build.make CMakeFiles/test_run.dir/tests/test_run.cpp.o
+.PHONY : tests/test_run.cpp.o
+
+tests/test_run.i: tests/test_run.cpp.i
+.PHONY : tests/test_run.i
+
+# target to preprocess a source file
+tests/test_run.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_run.dir/build.make CMakeFiles/test_run.dir/tests/test_run.cpp.i
+.PHONY : tests/test_run.cpp.i
+
+tests/test_run.s: tests/test_run.cpp.s
+.PHONY : tests/test_run.s
+
+# target to generate assembly for a file
+tests/test_run.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_run.dir/build.make CMakeFiles/test_run.dir/tests/test_run.cpp.s
+.PHONY : tests/test_run.cpp.s
 
 ui.o: ui.cpp.o
 .PHONY : ui.o
@@ -210,10 +247,14 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... machine"
+	@echo "... test_run"
 	@echo "... ui"
 	@echo "... src/machine.o"
 	@echo "... src/machine.i"
 	@echo "... src/machine.s"
+	@echo "... tests/test_run.o"
+	@echo "... tests/test_run.i"
+	@echo "... tests/test_run.s"
 	@echo "... ui.o"
 	@echo "... ui.i"
 	@echo "... ui.s"
