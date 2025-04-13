@@ -1,5 +1,7 @@
+#include <gtest/gtest.h>
+
 #include "machine.hpp"
-bool testRun() {
+TEST(TestMachine, RunTest) {
   InferenceMachine machine;
   machine.addVariable("A", true);
   machine.addVariable("B", false);
@@ -13,7 +15,7 @@ bool testRun() {
   machine.addRule(r1);
   machine.addRule(r2);
   machine.run();
-  return machine.variables["A"] && machine.variables["B"] &&
-         machine.variables["C"];
+  EXPECT_TRUE(machine.variables["A"]);
+  EXPECT_TRUE(machine.variables["B"]);
+  EXPECT_TRUE(machine.variables["C"]);
 }
-int main() { return !testRun(); }

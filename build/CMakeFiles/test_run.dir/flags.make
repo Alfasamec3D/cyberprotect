@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/mnt/9C468886468862BE/media/programs/cyberprotect/include
+CXX_INCLUDES = -I/mnt/9C468886468862BE/media/programs/cyberprotect/include -isystem /mnt/9C468886468862BE/media/programs/cyberprotect/build/_deps/googletest-src/googletest/include -isystem /mnt/9C468886468862BE/media/programs/cyberprotect/build/_deps/googletest-src/googletest
 
 CXX_FLAGS = -O3 -DNDEBUG
 
