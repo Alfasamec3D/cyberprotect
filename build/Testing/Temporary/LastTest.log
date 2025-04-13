@@ -1,10 +1,10 @@
-Start testing: Apr 13 06:33 MSK
+Start testing: Apr 13 06:37 MSK
 ----------------------------------------------------------
 1/1 Testing: TestMachine.RunTest
 1/1 Test: TestMachine.RunTest
 Command: "/mnt/9C468886468862BE/media/programs/cyberprotect/build/test_run" "--gtest_filter=TestMachine.RunTest" "--gtest_also_run_disabled_tests"
 Directory: /mnt/9C468886468862BE/media/programs/cyberprotect/build
-"TestMachine.RunTest" start time: Apr 13 06:33 MSK
+"TestMachine.RunTest" start time: Apr 13 06:37 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/9C468886468862BE/media/programs/cyberprotect/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -23,8 +23,8 @@ Note: Google Test filter = TestMachine.RunTest
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"TestMachine.RunTest" end time: Apr 13 06:33 MSK
+"TestMachine.RunTest" end time: Apr 13 06:37 MSK
 "TestMachine.RunTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Apr 13 06:33 MSK
+End testing: Apr 13 06:37 MSK

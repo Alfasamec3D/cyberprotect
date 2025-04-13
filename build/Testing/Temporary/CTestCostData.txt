@@ -1,3 +1,2 @@
-Test_run 1 0.00205437
-TestMachine.RunTest 1 0.00304012
+TestMachine.RunTest 1 0.00301816
 ---
