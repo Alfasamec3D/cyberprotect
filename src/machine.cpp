@@ -8,7 +8,7 @@ void InferenceMachine::run() {
       if (checkCondition(rule.condition)) {
         if (applyAction(rule.action)) {
           changed = true;
-          break;  // применили одно правило — начать с начала
+          break;  // if we applied one rule - start from the begining
         }
       }
     }

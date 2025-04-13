@@ -14,3 +14,5 @@ As you could already understand this is a prototype of inference machine
 1. Staying in the source directory use command
 `make -C ./build test`
 2. Enjoy the results of the tests.
+## Where to see answers on the additional questions?
+- In the `ANSWERS.dm` file in the source directory.

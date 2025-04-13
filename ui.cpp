@@ -2,12 +2,12 @@
 int main() {
   InferenceMachine machine;
 
-  // Задание переменных
+  // Setting variables
   machine.addVariable("A", true);
   machine.addVariable("B", false);
   machine.addVariable("C", false);
 
-  // Пример правил
+  // Rules examples
   Rule r1;
   r1.condition = {{"A", true}};
   r1.action = {{"B", true}};
