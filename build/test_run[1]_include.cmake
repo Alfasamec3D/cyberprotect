@@ -1,5 +1,0 @@
-if(EXISTS "/mnt/9C468886468862BE/media/programs/cyberprotect/build/test_run[1]_tests.cmake")
-  include("/mnt/9C468886468862BE/media/programs/cyberprotect/build/test_run[1]_tests.cmake")
-else()
-  add_test(test_run_NOT_BUILT test_run_NOT_BUILT)
-endif()

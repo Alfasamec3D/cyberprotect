@@ -1,2 +1,0 @@
-/usr/bin/ar qc libmachine.a CMakeFiles/machine.dir/src/machine.cpp.o
-/usr/bin/ranlib libmachine.a

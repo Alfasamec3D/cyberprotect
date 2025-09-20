@@ -1,1 +1,0 @@
-/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/ui.dir/ui.cpp.o -o ui  libmachine.a 
